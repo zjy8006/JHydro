@@ -83,7 +83,7 @@ public class Pettitt {
         double[] Ut = calculateUt(timeSeries);
         double[][] Utt = Container.indexArray(Ut,startStep);
         double[][] PP = Container.indexAndListCommon(getP(),timeSeries.length,startStep);
-        JavaPlot p = new JavaPlot(PlotUtil.GnuplotPath);
+        JavaPlot p = new JavaPlot();
 //        p.setTitle("The line of Time Series","Consolas",16);
         JavaPlot.getDebugger().setLevel(Debug.VERBOSE);
         p.getAxis("x").setLabel("time step(t)","Consolas",16);

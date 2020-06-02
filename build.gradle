@@ -9,6 +9,20 @@ repositories {
     mavenCentral()
 }
 
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.jfree', name: 'jfreechart', version: '1.5.0'
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+    compile group: 'com.panayotis', name: 'javaplot', version: '0.5.0'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
+    compile 'org.nd4j:nd4j-native-platform:1.0.0-alpha'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-nop
+    compile group: 'org.slf4j', name: 'slf4j-nop', version: '2.0.0-alpha1'
+
 }

@@ -69,7 +69,7 @@ public class TrendAnalyse {
             cumulativeDistance[i][0]=i+1;
             cumulativeDistance[i][1]=results[i];
         }
-        JavaPlot p = new JavaPlot(PlotUtil.GnuplotPath);
+        JavaPlot p = new JavaPlot();
         p.setTitle("The line of cumulative distance","Consolas",16);
         JavaPlot.getDebugger().setLevel(Debug.VERBOSE);
         p.getAxis("x").setLabel("time step(t)","Consolas",16);

@@ -8,12 +8,12 @@ import com.panayotis.gnuplot.style.Style;
 import com.panayotis.gnuplot.utils.Debug;
 
 /**
- * Created by 左岗岗 on 2017/2/13.
+ * @author Jianyi Zuo
  */
 public class PlotUtil {
 
 
-    public static String GnuplotPath = "D:\\System\\GNU\\GNUplot\\bin\\gnuplot.exe";
+    public static String GnuplotPath = "D:\\WorkSpace\\Idea\\JHydro\\src\\main\\resources\\gp530\\bin\\gnuplot.exe";
 
     public void plot2Dlines(double[][] ... timeSeries) {
         JavaPlot p = new JavaPlot(GnuplotPath);

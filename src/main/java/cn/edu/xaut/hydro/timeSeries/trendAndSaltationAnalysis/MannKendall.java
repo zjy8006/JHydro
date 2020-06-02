@@ -3,6 +3,7 @@ package cn.edu.xaut.hydro.timeSeries.trendAndSaltationAnalysis;
 import cn.edu.xaut.hydro.math.basic.MathUtil;
 import cn.edu.xaut.hydro.util.Container;
 import cn.edu.xaut.hydro.util.PlotUtil;
+
 import com.panayotis.gnuplot.JavaPlot;
 import com.panayotis.gnuplot.plot.AbstractPlot;
 import com.panayotis.gnuplot.plot.DataSetPlot;

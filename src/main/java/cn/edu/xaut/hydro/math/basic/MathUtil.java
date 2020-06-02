@@ -2,8 +2,6 @@ package cn.edu.xaut.hydro.math.basic;
 
 import cn.edu.xaut.hydro.util.Container;
 import cn.edu.xaut.hydro.util.TwoTuple;
-import org.joda.time.Days;
-
 import java.math.BigDecimal;
 import java.util.*;
 
